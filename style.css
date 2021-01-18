@@ -40,9 +40,13 @@ button{
 
 #operacion{
     text-align: left;
+    font-size: 150%;
+
 }
 
 #pantalla{
     text-align:center;
     flex: auto;
+    font-weight:900;
+    font-size: 150%;
 }
