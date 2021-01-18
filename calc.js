@@ -152,18 +152,22 @@ btnEq.onclick = function(e){
         pantalla.textContent = parseInt(op1) + parseInt(op2);
         op1 = parseInt(op1) + parseInt(op2);
         operacion.textContent = '=';
+        simbolo = '=';
     }else if (simbolo == '-') {
         pantalla.textContent = parseInt(op1) - parseInt(op2);
         op1 = parseInt(op1) - parseInt(op2);
         operacion.textContent = '=';
+        simbolo = '=';
     }else if(simbolo == '*'){
         pantalla.textContent = parseInt(op1) * parseInt(op2);
         op1 = parseInt(op1) * parseInt(op2);
         operacion.textContent = '=';
+        simbolo = '=';
     }else if(simbolo == '/'){
         pantalla.textContent = parseInt(op1) / parseInt(op2);
         op1 = parseInt(op1) / parseInt(op2);
         operacion.textContent = '=';
+        simbolo = '=';
     }else if (simbolo == '=') {
         pantalla.textContent = '';
         operacion.textContent = 'OP';
